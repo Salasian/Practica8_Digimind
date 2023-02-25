@@ -157,16 +157,18 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/time"
-                android:textColor="@color/dusty_rose"
                 android:layout_marginTop="20dp"
-                android:textAlignment="center"/>
+                android:text="@string/time"
+                android:textAlignment="center"
+                android:textColor="@color/dusty_rose" />
 
-            <EditText
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/btn_time"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="text"
-                android:id="@+id/time"/>
+                android:layout_marginTop="30dp"
+                android:backgroundTint="?android:attr/selectable"
+                android:text="Set time" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -175,7 +177,7 @@
                 android:text="@string/done"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:id="@+id/done"
+                android:id="@+id/btn_save"
                 />
 
         </LinearLayout>
